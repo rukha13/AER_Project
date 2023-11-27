@@ -56,6 +56,11 @@ h1{
   font-family: 'Fjalla One', sans-serif;
 }
 
+.i{
+  color: #69bebc;
+  letter-spacing: 0.5rem;
+}
+
 .courses ul{
   display: flex;
   justify-content: space-between;
