@@ -425,7 +425,7 @@ button{
   display: none;
 }
 
-.container{
+.mySlides .container{
   width: auto;
   display: flex;
   justify-content: center;
