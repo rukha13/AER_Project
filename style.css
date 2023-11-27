@@ -1,0 +1,212 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+p{
+  line-height: 1.8;
+  font-family: 'Kanit', sans-serif;
+}
+
+h1{
+  font-family: 'Fjalla One', sans-serif;
+}
+
+/* Navigation bar */
+.navigation{
+  top: 0;
+  position: sticky;
+  z-index: 1;
+}
+
+
+.nav-bar{
+  background-color: #4e82b2;
+  top: 0;
+}
+
+.courses{
+  background-color: #313B4D;
+}
+
+.nav-bar ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+}
+
+.nav-bar li{
+  display: inline-block;
+}
+
+.active{
+  background-color: rgba(0, 0, 0, 0.326);
+}
+
+.nav-bar li a {
+  display: block;
+  text-align: center;
+  padding: 10px 60px;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 300;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+.courses ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.courses ul li a{
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+}
+
+.nav-bar li a:hover{
+background-color: rgba(0, 0, 0, 0.326);  
+transition: 1s;
+}
+
+/* Initial Page */
+.initial-page{
+  width: 100%;
+  height: 40rem;
+  background-image: url("images/study.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.initial-page .text{
+  text-align: center;
+  line-height: 20rem;
+  color: #fff;
+}
+
+.initial-page .text h1{
+  font-size: 5rem;
+}
+
+.initial-page .text h3{
+  font-size: 1.35rem;
+}
+
+/* First Page */
+.container{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  padding: 5rem 0 5rem 0;
+  background-color: #D9EEE1;
+}
+
+.list{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 6rem;
+}
+
+.list .heading{
+  text-align: center;
+}
+
+.list .heading h1{
+  font-size: 5rem;
+}
+
+.list .heading p{
+  font-weight: 530;
+  font-size: 1.5rem;
+}
+
+.list button{
+  position: relative;
+  text-decoration: none;
+  border: none;
+  border-radius: 10rem;
+  padding: 0.8rem 0.4rem;
+  margin: 0.6rem;
+  width: 12rem;
+  align-self: center;
+  color: white;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.list .course{
+  background-color: #4e82b2;
+}
+
+.list .ex{
+  background-color: #04AA6D;
+}
+
+.list .quiz{
+  background-color: #FFC0C7;
+  color: #000;
+}
+
+.image-box{
+  width: 25%;
+  height: auto;
+  padding: 1rem 1rem 3rem 1rem;
+  background-color: rgb(97, 109, 130);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  color: #fff;
+  border-radius: 1rem;
+}
+
+.image-box h1{
+  align-self: start;
+  margin-bottom: 1rem;
+}
+
+.image-box .image-bg img{
+  width: 100%;
+}
+
+/* Second page */
+.second .container{
+  background-color: #FFF4A3;
+}
+
+.second .container .list .quiz{
+  background-color: #FFC0C7;
+  color: #fff;
+}
+
+.second .list{
+  margin-right: 12rem;
+  margin-left: 5rem;
+}
+
+/* Third Page */
+.third .container{
+  background-color: #0D1721;
+  color: #fff;
+}
+
+.third .container .list .quiz{
+  background-color: #FFC0C7;
+  color: #fff;
+}
+
+.third .list{
+  margin-right: 10rem;
+  margin-left: 3rem;
+}
